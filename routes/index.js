@@ -6,4 +6,16 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/cart', function(req, res, next) {
+  res.render('shopping/cart');
+});
+
+router.get('/checkout', function(req, res, next) {
+  res.render('shopping/checkout');
+});
+
+router.get('/checkout', function(req, res, next) {
+  res.render('shopping/product');
+});
+
 module.exports = router;
