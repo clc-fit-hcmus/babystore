@@ -18,4 +18,8 @@ router.get('/checkout', function(req, res, next) {
   res.render('shopping/product');
 });
 
+router.get('/account', function(req, res, next) {
+  res.render('shopping/account');
+});
+
 module.exports = router;
